@@ -13,8 +13,4 @@ class AppTest: KIFTestCase {
         tester().waitForView(withAccessibilityLabel: "home_screen")
     }
     
-    func testSigninButton() {
-        tester().waitForTappableView(withAccessibilityLabel: "signin_button")
-    }
-    
 }
